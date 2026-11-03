@@ -1,0 +1,19 @@
+# Penjadwal cadangan. Penjadwal utama: cron-job.org pada menit ke-3 tiap jam.
+# Idempotency di bot membuat panggilan ganda aman. GitHub Actions schedule bisa terlambat.
+name: tick
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch: {}
+jobs:
+  tick:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Panggil endpoint tick
+        env:
+          TICK_URL: ${{ secrets.TICK_URL }}
+          CRON_SECRET: ${{ secrets.CRON_SECRET }}
+        run: |
+          curl --silent --show-error --fail-with-body --max-time 150 --retry 2 --retry-delay 20 \
+            -H "Authorization: Bearer $CRON_SECRET" "$TICK_URL?source=github_actions"

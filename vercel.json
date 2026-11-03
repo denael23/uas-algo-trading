@@ -1,0 +1,9 @@
+{
+  "regions": ["sin1"],
+  "functions": {
+    "api/*.js": { "maxDuration": 120, "includeFiles": "config/**" }
+  },
+  "crons": [
+    { "path": "/api/tick", "schedule": "20 17 * * *" }
+  ]
+}

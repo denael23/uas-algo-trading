@@ -1,0 +1,28 @@
+{
+  "name": "uas-algo-trading-bot-dry-run-indodax",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "UAS Algorithmic Trading - bot dry run Indodax di Vercel (Denael, NIM 25120200024)",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "node --test tests/unit.test.js tests/e2e.test.js",
+    "cek-sumber": "node scripts/cek_sumber.js",
+    "pilih-universe": "node scripts/pilih_universe.js",
+    "tarik-data": "node scripts/tarik_data.js",
+    "init-db": "node scripts/init_db.js",
+    "ekspor-log": "node scripts/ekspor_log.js",
+    "ukur-biaya": "node scripts/ukur_biaya.js",
+    "backtest": "node scripts/backtest.js",
+    "catat-freeze": "node scripts/catat_freeze.js",
+    "cek-freeze": "node scripts/cek_freeze.js",
+    "replay": "node scripts/replay_forward.js",
+    "hitung-ulang": "node scripts/hitung_ulang.js",
+    "dashboard": "node scripts/bangun_dashboard.js",
+    "refleksi": "node scripts/buat_draf_refleksi.js",
+    "cek-rahasia": "node scripts/cek_rahasia.js",
+    "paket": "node scripts/buat_paket.js"
+  },
+  "dependencies": { "pg": "^8.13.1" },
+  "devDependencies": { "@electric-sql/pglite": "^0.2.17" }
+}

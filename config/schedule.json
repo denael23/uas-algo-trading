@@ -1,0 +1,8 @@
+{
+  "forward_start_iso": "2026-11-04T05:00:00Z",
+  "forward_end_iso": "2026-11-14T05:00:00Z",
+  "backtest_start_iso": "2023-10-15T00:00:00Z",
+  "backtest_end_iso": "2026-11-04T05:00:00Z",
+  "tick_interval_minutes": 60,
+  "catatan": "Freeze dan mulai forward test: Rabu 4 Nov 2026 12.00 WIB. Selesai: Sabtu 14 Nov 2026 12.00 WIB (10 hari). Jendela backtest >= 3 tahun."
+}

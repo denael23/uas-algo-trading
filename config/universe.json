@@ -1,0 +1,6 @@
+{
+  "status": "draft",
+  "catatan": "BELUM FINAL. Jalankan scripts/pilih_universe.js dengan data asli Indodax untuk menghasilkan universe final.",
+  "volume_unit": null,
+  "pairs": ["btcidr", "ethidr"]
+}
