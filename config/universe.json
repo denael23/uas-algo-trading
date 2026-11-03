@@ -1,6 +1,14 @@
 {
-  "status": "draft",
-  "catatan": "BELUM FINAL. Jalankan scripts/pilih_universe.js dengan data asli Indodax untuk menghasilkan universe final.",
-  "volume_unit": null,
-  "pairs": ["btcidr", "ethidr"]
+ "status": "final",
+ "ditetapkan_pada": "2026-11-03T07:20:01.081Z",
+ "kriteria_lihat": "hasil/seleksi_universe.json",
+ "volume_unit": "coin",
+ "pairs": [
+  "btcidr",
+  "xrpidr",
+  "ethidr",
+  "dogeidr",
+  "trxidr",
+  "bnbidr"
+ ]
 }

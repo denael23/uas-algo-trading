@@ -1,8 +1,8 @@
 {
-  "official_taker_buy_pct": null,
-  "official_taker_sell_pct": null,
+  "official_taker_buy_pct": 0.20555,
+  "official_taker_sell_pct": 0.41555,
   "official_url": "https://help.indodax.com/hc/id/articles/4416646599705-Rincian-Biaya-Transaksi-di-INDODAX",
-  "official_tanggal_akses": null,
+  "official_tanggal_akses": "2026-11-03",
   "api_url": "https://indodax.com/api/pairs",
   "catatan": "Isi dari halaman resmi / Profil > Pengaturan > Biaya Trading. Tarif all-in termasuk pajak. Bot memakai yang lebih mahal antara angka ini dan trade_fee_percent_taker di /api/pairs."
 }

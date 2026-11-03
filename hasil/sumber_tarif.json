@@ -1,0 +1,94 @@
+{
+ "diakses_pada": "2026-11-03T07:23:37.020Z",
+ "url": {
+  "pairs": "https://indodax.com/api/pairs",
+  "price_increments": "https://indodax.com/api/price_increments",
+  "server_time": "https://indodax.com/api/server_time"
+ },
+ "jumlah_pasangan_idr": 438,
+ "sebaran_taker_pct_idr": {
+  "0.2": 438
+ },
+ "pasangan": {
+  "btcidr": {
+   "id": "btcidr",
+   "symbol": "BTCIDR",
+   "base": "idr",
+   "tickerId": "btc_idr",
+   "qtyInc": 1e-8,
+   "priceInc": 1000,
+   "minBaseIdr": 10000,
+   "minQty": 0.00000719,
+   "takerPct": 0.2,
+   "suspended": false
+  },
+  "xrpidr": {
+   "id": "xrpidr",
+   "symbol": "XRPIDR",
+   "base": "idr",
+   "tickerId": "xrp_idr",
+   "qtyInc": 1e-8,
+   "priceInc": 1,
+   "minBaseIdr": 10000,
+   "minQty": 0.44023773,
+   "takerPct": 0.2,
+   "suspended": false
+  },
+  "ethidr": {
+   "id": "ethidr",
+   "symbol": "ETHIDR",
+   "base": "idr",
+   "tickerId": "eth_idr",
+   "qtyInc": 1e-8,
+   "priceInc": 1000,
+   "minBaseIdr": 10000,
+   "minQty": 0.00024456,
+   "takerPct": 0.2,
+   "suspended": false
+  },
+  "dogeidr": {
+   "id": "dogeidr",
+   "symbol": "DOGEIDR",
+   "base": "idr",
+   "tickerId": "doge_idr",
+   "qtyInc": 1e-8,
+   "priceInc": 1,
+   "minBaseIdr": 10000,
+   "minQty": 7.44047619,
+   "takerPct": 0.2,
+   "suspended": false
+  },
+  "trxidr": {
+   "id": "trxidr",
+   "symbol": "TRXIDR",
+   "base": "idr",
+   "tickerId": "trx_idr",
+   "qtyInc": 1e-8,
+   "priceInc": 1,
+   "minBaseIdr": 10000,
+   "minQty": 1.71762281,
+   "takerPct": 0.2,
+   "suspended": false
+  },
+  "bnbidr": {
+   "id": "bnbidr",
+   "symbol": "BNBIDR",
+   "base": "idr",
+   "tickerId": "bnb_idr",
+   "qtyInc": 1e-8,
+   "priceInc": 1,
+   "minBaseIdr": 10000,
+   "minQty": 0.00079675,
+   "takerPct": 0.2,
+   "suspended": false
+  }
+ },
+ "resmi": {
+  "official_taker_buy_pct": 0.20555,
+  "official_taker_sell_pct": 0.41555,
+  "official_url": "https://help.indodax.com/hc/id/articles/4416646599705-Rincian-Biaya-Transaksi-di-INDODAX",
+  "official_tanggal_akses": "2026-11-03",
+  "api_url": "https://indodax.com/api/pairs",
+  "catatan": "Isi dari halaman resmi / Profil > Pengaturan > Biaya Trading. Tarif all-in termasuk pajak. Bot memakai yang lebih mahal antara angka ini dan trade_fee_percent_taker di /api/pairs."
+ }
+}
