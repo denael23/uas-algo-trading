@@ -71,9 +71,7 @@
   "data_tidak_valid:volume_nol": 192,
   "daily_loss_limit": 20
  },
- "open_positions": [
-  "dogeidr"
- ],
+ "open_positions": [],
  "data_sha": {
   "btcidr": "89a5431b06d08de07d6aa8b351637976b1368be91eec873e81c4122d58d116c3",
   "xrpidr": "1d0730f938c59b7620682ad92a4ef2203b18d7f252e0244dd88a08356b08bd7f",
