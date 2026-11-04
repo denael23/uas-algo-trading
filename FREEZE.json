@@ -1,0 +1,52 @@
+{
+ "dicatat_pada": "2026-11-04T01:47:43.048Z",
+ "freeze_date": "2026-11-04T05:00:00Z",
+ "waktu_mulai_forward": "2026-11-04T05:00:00Z",
+ "waktu_selesai_forward": "2026-11-14T05:00:00Z",
+ "rules_hash": "6da606a0460c9d10",
+ "universe": [
+  "btcidr",
+  "xrpidr",
+  "ethidr",
+  "dogeidr",
+  "trxidr",
+  "bnbidr"
+ ],
+ "parameter": {
+  "nama": "Pullback Searah Tren (Trend Following + Mean Reversion)",
+  "timeframe_minutes": 240,
+  "tf_param": "240",
+  "window_bars": 200,
+  "trend_len": 150,
+  "slope_bars": 20,
+  "rsi_len": 3,
+  "rsi_entry": 50,
+  "atr_period": 14,
+  "stop_atr": 6,
+  "mom_len": 126,
+  "adtv_bars": 20,
+  "min_adtv_idr": 1000000000,
+  "max_hold_bars": 120,
+  "wcap_pct": 25,
+  "position_pct": 10,
+  "adtv_cap_pct": 5,
+  "max_open_positions": 10,
+  "daily_loss_limit_pct": 3,
+  "initial_capital_idr": 100000000,
+  "min_order_idr": 25000,
+  "max_spread_pct": 2,
+  "book_levels_saved": 100,
+  "estimasi_ukuran_order_idr": 10000000,
+  "volume_unit": "coin"
+ },
+ "sha256_file": {
+  "config/strategy.json": "734a8f5bc30e27fdaa0bd3099a9d6d1fa5170690b79988a22a26ec3f112eb87b",
+  "config/universe.json": "2c3486388ae814a5ba35879f3cfb36e69d5a7c76c194c877715d929c60f42dcd",
+  "config/fees.json": "6500b4c70c1cbe96974aceb1b10c49937d44a96ac59ffb6306fc72628bb50fe8",
+  "config/schedule.json": "e9272e7fb917e23652475a84c297b225126e7570f5411a0473b01946e81f6c42",
+  "config/biaya_terukur.json": "822ffa6eb006ce4ba2250bb050585b700ddd2ff151d7af473232c995fe2befff",
+  "lib/signal.js": "5a48eb95ad1d8adb914e74f34b2046380f06f556cd45ec679a00b96a5bf77c22",
+  "lib/indicators.js": "5e1d35f55bfb8efe18668d8d9ee1198e16bbebb2b75bd3a5a7db25f768eafea9",
+  "lib/candles.js": "4b3e6185fd3c777960ae237d57e61aed2a424d261096b6df0775d13dfd31ebcd"
+ }
+}

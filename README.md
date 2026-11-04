@@ -52,3 +52,12 @@ npm run cek-rahasia            tidak ada secret di berkas proyek
 - Dashboard tidak memuat angka tertulis tangan. Semua angka berasal dari `lib/metrics.js`.
 - Sinyal yang dihitung ditulis ke `signals` bersama hash jendela candle; `replay_forward` membandingkannya baris demi baris.
 - Setiap panggilan mencatat hash aturan dan commit, sehingga perubahan setelah freeze terlihat di log.
+
+## Catatan freeze
+
+- Dicatat: 2026-11-04T01:47:43.054Z
+- Waktu mulai forward test: 2026-11-04T05:00:00Z
+- Waktu selesai: 2026-11-14T05:00:00Z
+- Universe: btcidr, xrpidr, ethidr, dogeidr, trxidr, bnbidr
+- Hash aturan: 6da606a0460c9d10
+- Parameter lengkap: config/strategy.json dan FREEZE.json

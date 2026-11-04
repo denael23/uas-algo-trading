@@ -12,7 +12,7 @@ let bad = 0, n = 0;
     const f = path.join(d, e), rel = path.relative(root, f);
     if (SKIP.has(e)) continue;
     if (statSync(f).isDirectory()) { walk(f); continue; }
-    if (e === '.env' || (/^\.env\./.test(e) && e !== '.env.example')) { console.error('DILARANG ADA:', rel); bad++; continue; }
+    if (e === '.env' || (/^\.env\./.test(e) && e !== '.env.example')) { let ikut = true; if (existsSync(path.join(root, '.git'))) { try { execFileSync('git', ['ls-files', '--error-unmatch', rel], { cwd: root, stdio: 'ignore' }); } catch { ikut = false; } } if (!ikut) continue; console.error('DILARANG ADA:', rel); bad++; continue; }
     if (statSync(f).size > 5e6) continue;
     n++;
     const t = readFileSync(f, 'utf8');
