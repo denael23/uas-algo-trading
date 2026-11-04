@@ -1,0 +1,55 @@
+
+> uas-algo-trading-bot-dry-run-indodax@1.0.0 test
+> node --test tests/unit.test.js tests/e2e.test.js
+
+[32m✔ idempotency: panggilan ganda untuk slot/candle sama tidak membeli lagi [90m(1938.8186ms)[39m[39m
+[32m✔ lease: dua panggilan serentak, yang kedua dilewati [90m(1570.7239ms)[39m[39m
+[32m✔ endpoint gagal: error dicatat, retry terbatas, tick tidak jatuh, tidak ada order [90m(787.3372ms)[39m[39m
+[32m✔ tarif belum diisi: bot tidak bertransaksi dan mencatat alasannya [90m(4673.2874ms)[39m[39m
+[32m✔ alur lengkap: forward -> replay -> hitung_ulang -> dashboard; sinyal cocok 100% [90m(5508.1967ms)[39m[39m
+[32m✔ kill switch tercatat dan memblok entry; sinyal mentah tetap cocok dengan replay [90m(14353.2945ms)[39m[39m
+[32m✔ daily loss limit: tercatat sekali per hari WIB dan memblok semua entry [90m(4271.2143ms)[39m[39m
+[32m✔ daily loss limit realistis: setelah terpicu tidak ada beli sampai hari WIB berikutnya [90m(4260.0123ms)[39m[39m
+[32m✔ slot terlewat: uptime turun dan candle tetap diproses saat tick berikutnya [90m(4547.6153ms)[39m[39m
+BERHENTI: data bukan dari API Indodax.
+BELUM SIAP FREEZE: backtest memakai data uji sintetis
+Folder .git tidak ada. Tanpa riwayat commit, komponen kecocokan dinilai 0.
+Commit freeze 2026-11-04T12:30:00+07:00 melewati batas 2026-11-04T05:00:00Z.
+BERHENTI: ada perubahan yang belum di-commit:
+?? hasil/bukti_freeze.json
+BERUBAH: config/strategy.json
+rules_hash berubah
+TEMUAN connection string berisi kata sandi: bocor.txt
+RIWAYAT GIT memuat connection string berisi kata sandi
+BERHENTI: cakupan backtest 0.762 tahun, minimum 3. Tidak ada file yang ditulis.
+[32m✔ order book kosong: exit menjadi tertunda lalu tereksekusi; entry diblok [90m(10493.8893ms)[39m[39m
+[32m✔ backtest >= 3 tahun: skrip berjalan, menolak data bukan Indodax, dan menolak cakupan kurang dari 3 tahun [90m(10130.7483ms)[39m[39m
+[32m✔ endpoint terlindungi: tanpa atau salah secret ditolak 401 sebelum menyentuh apa pun [90m(11.606ms)[39m[39m
+[32m✔ alur harian (alternatif): 3 tahun backtest, forward test, sinyal cocok 100% [90m(4891.8701ms)[39m[39m
+[32m✔ candle berjalan dibuang: Time detik vs server_time milidetik [90m(2.1742ms)[39m[39m
+[32m✔ validasi: candle hilang, volume nol, harga nol, basi, jendela kurang [90m(0.5993ms)[39m[39m
+[32m✔ indikator: nilai terhitung tangan [90m(0.4648ms)[39m[39m
+[32m✔ fill: beli di ask, jual di bid, menghabiskan level, bukan mid [90m(0.8601ms)[39m[39m
+[32m✔ fill: order lebih besar dari seluruh buku menjadi parsial [90m(0.2624ms)[39m[39m
+[32m✔ pembulatan kuantitas mengikuti quantity_increment [90m(169.8318ms)[39m[39m
+[32m✔ order book: kosong, tersilang, spread lebih dari 2% [90m(0.3926ms)[39m[39m
+[32m✔ fee: memakai yang lebih mahal per sisi; kosong jika tarif resmi belum diisi [90m(0.2733ms)[39m[39m
+[32m✔ sizing: 10% equity, dibatasi 5% ADTV dan kas [90m(0.2433ms)[39m[39m
+[32m✔ masuk: tren naik, SMA menanjak, RSI di bawah ambang, likuid [90m(0.8958ms)[39m[39m
+[32m✔ keluar: stop trailing, trend patah, batas waktu, batas bobot; level stop naik saja [90m(0.3112ms)[39m[39m
+[32m✔ urutan kandidat: berposisi dulu, lalu Mom tertinggi, seri menurut abjad [90m(0.2975ms)[39m[39m
+[32m✔ data rusak: harga nol tidak memicu sinyal [90m(1.3854ms)[39m[39m
+[32m✔ metrik: drawdown, statistik trade, porsi biaya, biaya terukur [90m(1.1547ms)[39m[39m
+[32m✔ hari WIB berganti pukul 17.00 UTC [90m(1.1458ms)[39m[39m
+[32m✔ jadwal sesuai ketentuan terbaru: freeze Rabu 4 Nov 12.00 WIB, 10 hari, 240 slot [90m(5.2468ms)[39m[39m
+[32m✔ konfigurasi aktif: candle 4 jam dengan nilai parameter UTS [90m(5.5451ms)[39m[39m
+[32m✔ klien API: retry terbatas, timeout, respons kosong dicatat [90m(10.5526ms)[39m[39m
+[32m✔ model backtest: bukan close, ada spread dan slippage [90m(0.3859ms)[39m[39m
+[34mℹ tests 32[39m
+[34mℹ suites 0[39m
+[34mℹ pass 32[39m
+[34mℹ fail 0[39m
+[34mℹ cancelled 0[39m
+[34mℹ skipped 0[39m
+[34mℹ todo 0[39m
+[34mℹ duration_ms 67663.9579[39m

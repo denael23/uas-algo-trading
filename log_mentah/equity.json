@@ -1,0 +1,173 @@
+[
+ {
+  "id": 1,
+  "mode": "prep",
+  "call_id": 1,
+  "ts": "2026-11-03T07:26:15.134Z",
+  "cash": 100000000,
+  "position_value": 0,
+  "equity": 100000000
+ },
+ {
+  "id": 2,
+  "mode": "prep",
+  "call_id": 2,
+  "ts": "2026-11-03T08:03:12.852Z",
+  "cash": 100000000,
+  "position_value": 0,
+  "equity": 100000000
+ },
+ {
+  "id": 3,
+  "mode": "prep",
+  "call_id": 4,
+  "ts": "2026-11-03T09:03:12.006Z",
+  "cash": 100000000,
+  "position_value": 0,
+  "equity": 100000000
+ },
+ {
+  "id": 4,
+  "mode": "prep",
+  "call_id": 5,
+  "ts": "2026-11-03T10:03:12.625Z",
+  "cash": 100000000,
+  "position_value": 0,
+  "equity": 100000000
+ },
+ {
+  "id": 5,
+  "mode": "prep",
+  "call_id": 7,
+  "ts": "2026-11-03T11:03:13.250Z",
+  "cash": 100000000,
+  "position_value": 0,
+  "equity": 100000000
+ },
+ {
+  "id": 6,
+  "mode": "prep",
+  "call_id": 8,
+  "ts": "2026-11-03T12:03:12.646Z",
+  "cash": 100000000,
+  "position_value": 0,
+  "equity": 100000000
+ },
+ {
+  "id": 7,
+  "mode": "prep",
+  "call_id": 9,
+  "ts": "2026-11-03T13:03:12.350Z",
+  "cash": 100000000,
+  "position_value": 0,
+  "equity": 100000000
+ },
+ {
+  "id": 8,
+  "mode": "prep",
+  "call_id": 10,
+  "ts": "2026-11-03T14:03:12.234Z",
+  "cash": 100000000,
+  "position_value": 0,
+  "equity": 100000000
+ },
+ {
+  "id": 9,
+  "mode": "prep",
+  "call_id": 11,
+  "ts": "2026-11-03T15:03:12.660Z",
+  "cash": 100000000,
+  "position_value": 0,
+  "equity": 100000000
+ },
+ {
+  "id": 10,
+  "mode": "prep",
+  "call_id": 12,
+  "ts": "2026-11-03T16:01:49.837Z",
+  "cash": 100000000,
+  "position_value": 0,
+  "equity": 100000000
+ },
+ {
+  "id": 11,
+  "mode": "prep",
+  "call_id": 15,
+  "ts": "2026-11-03T17:03:12.523Z",
+  "cash": 100000000,
+  "position_value": 0,
+  "equity": 100000000
+ },
+ {
+  "id": 12,
+  "mode": "prep",
+  "call_id": 17,
+  "ts": "2026-11-03T18:03:12.796Z",
+  "cash": 100000000,
+  "position_value": 0,
+  "equity": 100000000
+ },
+ {
+  "id": 13,
+  "mode": "prep",
+  "call_id": 19,
+  "ts": "2026-11-03T19:03:11.990Z",
+  "cash": 100000000,
+  "position_value": 0,
+  "equity": 100000000
+ },
+ {
+  "id": 14,
+  "mode": "prep",
+  "call_id": 20,
+  "ts": "2026-11-03T20:03:12.241Z",
+  "cash": 100000000,
+  "position_value": 0,
+  "equity": 100000000
+ },
+ {
+  "id": 15,
+  "mode": "prep",
+  "call_id": 21,
+  "ts": "2026-11-03T21:03:12.017Z",
+  "cash": 100000000,
+  "position_value": 0,
+  "equity": 100000000
+ },
+ {
+  "id": 16,
+  "mode": "prep",
+  "call_id": 22,
+  "ts": "2026-11-03T22:03:12.150Z",
+  "cash": 100000000,
+  "position_value": 0,
+  "equity": 100000000
+ },
+ {
+  "id": 17,
+  "mode": "prep",
+  "call_id": 23,
+  "ts": "2026-11-03T23:03:12.443Z",
+  "cash": 100000000,
+  "position_value": 0,
+  "equity": 100000000
+ },
+ {
+  "id": 18,
+  "mode": "prep",
+  "call_id": 24,
+  "ts": "2026-11-04T00:00:54.590Z",
+  "cash": 100000000,
+  "position_value": 0,
+  "equity": 100000000
+ },
+ {
+  "id": 19,
+  "mode": "prep",
+  "call_id": 26,
+  "ts": "2026-11-04T01:03:12.696Z",
+  "cash": 100000000,
+  "position_value": 0,
+  "equity": 100000000
+ }
+]

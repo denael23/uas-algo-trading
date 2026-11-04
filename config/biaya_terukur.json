@@ -1,0 +1,50 @@
+{
+ "sumber": "log_mentah/ob_snapshots.json",
+ "ukuran_order_idr": 10000000,
+ "snapshot_pertama": "2026-11-03T07:26:11.242Z",
+ "snapshot_terakhir": "2026-11-04T01:03:10.548Z",
+ "pasangan": {
+  "btcidr": {
+   "n_snapshot": 19,
+   "n_hari": 2,
+   "spreadPct": 0.04100864171689513,
+   "slippagePct": 0.003526297786970058,
+   "n_cukup_dalam": 19
+  },
+  "xrpidr": {
+   "n_snapshot": 19,
+   "n_hari": 2,
+   "spreadPct": 0.04383273428596476,
+   "slippagePct": 0.019372163916970542,
+   "n_cukup_dalam": 19
+  },
+  "ethidr": {
+   "n_snapshot": 19,
+   "n_hari": 2,
+   "spreadPct": 0.08811866647084741,
+   "slippagePct": 0.0012121912806997022,
+   "n_cukup_dalam": 19
+  },
+  "dogeidr": {
+   "n_snapshot": 19,
+   "n_hari": 2,
+   "spreadPct": 0.14814814814814814,
+   "slippagePct": 0.03570679912210022,
+   "n_cukup_dalam": 19
+  },
+  "trxidr": {
+   "n_snapshot": 19,
+   "n_hari": 2,
+   "spreadPct": 0.37593984962406013,
+   "slippagePct": 0.0009573060042255364,
+   "n_cukup_dalam": 19
+  },
+  "bnbidr": {
+   "n_snapshot": 19,
+   "n_hari": 2,
+   "spreadPct": 0.4686289296471888,
+   "slippagePct": 0.000033985043832381214,
+   "n_cukup_dalam": 19
+  }
+ }
+}

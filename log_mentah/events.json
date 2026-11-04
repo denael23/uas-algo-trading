@@ -1,0 +1,22 @@
+[
+ {
+  "id": 1,
+  "ts": "2026-11-03T16:00:42.866Z",
+  "call_id": null,
+  "mode": "prep",
+  "type": "kill_switch_on",
+  "detail": {
+   "reason": "uji"
+  }
+ },
+ {
+  "id": 2,
+  "ts": "2026-11-03T16:03:49.476Z",
+  "call_id": null,
+  "mode": "prep",
+  "type": "kill_switch_off",
+  "detail": {
+   "reason": "selesai_uji"
+  }
+ }
+]

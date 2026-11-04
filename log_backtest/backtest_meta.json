@@ -1,0 +1,94 @@
+{
+ "start_sec": 1697328000,
+ "end_sec": 1793750400,
+ "universe": [
+  "btcidr",
+  "xrpidr",
+  "ethidr",
+  "dogeidr",
+  "trxidr",
+  "bnbidr"
+ ],
+ "fee": {
+  "buyPct": 0.20555,
+  "sellPct": 0.41555,
+  "apiPct": 0.2,
+  "officialBuyPct": 0.20555,
+  "officialSellPct": 0.41555
+ },
+ "costs": {
+  "btcidr": {
+   "n_snapshot": 19,
+   "n_hari": 2,
+   "spreadPct": 0.04100864171689513,
+   "slippagePct": 0.003526297786970058,
+   "n_cukup_dalam": 19
+  },
+  "xrpidr": {
+   "n_snapshot": 19,
+   "n_hari": 2,
+   "spreadPct": 0.04383273428596476,
+   "slippagePct": 0.019372163916970542,
+   "n_cukup_dalam": 19
+  },
+  "ethidr": {
+   "n_snapshot": 19,
+   "n_hari": 2,
+   "spreadPct": 0.08811866647084741,
+   "slippagePct": 0.0012121912806997022,
+   "n_cukup_dalam": 19
+  },
+  "dogeidr": {
+   "n_snapshot": 19,
+   "n_hari": 2,
+   "spreadPct": 0.14814814814814814,
+   "slippagePct": 0.03570679912210022,
+   "n_cukup_dalam": 19
+  },
+  "trxidr": {
+   "n_snapshot": 19,
+   "n_hari": 2,
+   "spreadPct": 0.37593984962406013,
+   "slippagePct": 0.0009573060042255364,
+   "n_cukup_dalam": 19
+  },
+  "bnbidr": {
+   "n_snapshot": 19,
+   "n_hari": 2,
+   "spreadPct": 0.4686289296471888,
+   "slippagePct": 0.000033985043832381214,
+   "n_cukup_dalam": 19
+  }
+ },
+ "benchmark_cost": {
+  "n_snapshot": 19,
+  "n_hari": 2,
+  "spreadPct": 0.04100864171689513,
+  "slippagePct": 0.003526297786970058,
+  "n_cukup_dalam": 19
+ },
+ "block_counts": {
+  "data_tidak_valid:volume_nol": 192,
+  "daily_loss_limit": 20
+ },
+ "open_positions": [
+  "dogeidr"
+ ],
+ "data_sha": {
+  "btcidr": "89a5431b06d08de07d6aa8b351637976b1368be91eec873e81c4122d58d116c3",
+  "xrpidr": "1d0730f938c59b7620682ad92a4ef2203b18d7f252e0244dd88a08356b08bd7f",
+  "ethidr": "1c4c38a6121555a2abe5738b2dbf65a1ccf8cd9d0375706593cea7ba058e282f",
+  "dogeidr": "3f24fc872fcf9d363de54026ff84cd79728d0b47449a66e09e0ecb4a7651c42a",
+  "trxidr": "b7186237cc8a5368345c0721ddd1b318cc7f9839dd53fdae25a8d31b053be367",
+  "bnbidr": "9eaf998934fbfa35e969df8b1103298d79a044dbdfcbbc206fdfddf2f7fb37a8"
+ },
+ "rules_hash": "6da606a0460c9d10",
+ "bar_pertama": [
+  1694275200,
+  1694275200,
+  1694275200,
+  1694275200,
+  1694275200,
+  1694275200
+ ]
+}

@@ -1,0 +1,69 @@
+{
+ "sumber": "indodax_public_api",
+ "endpoint": "https://indodax.com/tradingview/history_v2",
+ "tf": "240",
+ "ditarik_pada": "2026-11-04T01:31:30.056Z",
+ "dari": "2023-09-09T16:00:00.000Z",
+ "pasangan": {
+  "btcidr": {
+   "symbol": "BTCIDR",
+   "bar": 6908,
+   "request": 14,
+   "bar_pertama": "2023-09-09T16:00:00.000Z",
+   "bar_terakhir": "2026-11-03T20:00:00.000Z",
+   "celah": 0,
+   "bar_volume_nol": 16,
+   "sha256": "89a5431b06d08de07d6aa8b351637976b1368be91eec873e81c4122d58d116c3"
+  },
+  "xrpidr": {
+   "symbol": "XRPIDR",
+   "bar": 6908,
+   "request": 14,
+   "bar_pertama": "2023-09-09T16:00:00.000Z",
+   "bar_terakhir": "2026-11-03T20:00:00.000Z",
+   "celah": 0,
+   "bar_volume_nol": 19,
+   "sha256": "1d0730f938c59b7620682ad92a4ef2203b18d7f252e0244dd88a08356b08bd7f"
+  },
+  "ethidr": {
+   "symbol": "ETHIDR",
+   "bar": 6908,
+   "request": 14,
+   "bar_pertama": "2023-09-09T16:00:00.000Z",
+   "bar_terakhir": "2026-11-03T20:00:00.000Z",
+   "celah": 0,
+   "bar_volume_nol": 18,
+   "sha256": "1c4c38a6121555a2abe5738b2dbf65a1ccf8cd9d0375706593cea7ba058e282f"
+  },
+  "dogeidr": {
+   "symbol": "DOGEIDR",
+   "bar": 6908,
+   "request": 14,
+   "bar_pertama": "2023-09-09T16:00:00.000Z",
+   "bar_terakhir": "2026-11-03T20:00:00.000Z",
+   "celah": 0,
+   "bar_volume_nol": 19,
+   "sha256": "3f24fc872fcf9d363de54026ff84cd79728d0b47449a66e09e0ecb4a7651c42a"
+  },
+  "trxidr": {
+   "symbol": "TRXIDR",
+   "bar": 6908,
+   "request": 14,
+   "bar_pertama": "2023-09-09T16:00:00.000Z",
+   "bar_terakhir": "2026-11-03T20:00:00.000Z",
+   "celah": 0,
+   "bar_volume_nol": 19,
+   "sha256": "b7186237cc8a5368345c0721ddd1b318cc7f9839dd53fdae25a8d31b053be367"
+  },
+  "bnbidr": {
+   "symbol": "BNBIDR",
+   "bar": 6908,
+   "request": 14,
+   "bar_pertama": "2023-09-09T16:00:00.000Z",
+   "bar_terakhir": "2026-11-03T20:00:00.000Z",
+   "celah": 0,
+   "bar_volume_nol": 19,
+   "sha256": "9eaf998934fbfa35e969df8b1103298d79a044dbdfcbbc206fdfddf2f7fb37a8"
+  }
+ }
+}

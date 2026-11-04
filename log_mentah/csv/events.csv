@@ -1,0 +1,3 @@
+id,ts,call_id,mode,type,detail
+1,2026-11-03T16:00:42.866Z,,prep,kill_switch_on,"{""reason"":""uji""}"
+2,2026-11-03T16:03:49.476Z,,prep,kill_switch_off,"{""reason"":""selesai_uji""}"

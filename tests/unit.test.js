@@ -57,6 +57,13 @@ test('fill: order lebih besar dari seluruh buku menjadi parsial', () => {
 test('pembulatan kuantitas mengikuti quantity_increment', () => {
   assert.equal(floorQty(1.23456789123, 0.00000001), 1.23456789);
   assert.equal(floorQty(12.9, 1), 12);
+  let seed = 12345;
+  for (let i = 0; i < 200000; i++) {
+    seed = (seed * 1664525 + 1013904223) % 4294967296;
+    const q = Number((seed / 4294967296 * 5000).toFixed(8));
+    assert.equal(floorQty(q, 0.00000001), q);
+  }
+  assert.equal(floorQty(1.234567899, 0.00000001), 1.23456789);
 });
 test('order book: kosong, tersilang, spread lebih dari 2%', () => {
   assert.equal(bookIssue(parseBook({ buy: [], sell: [] }), 2), 'order_book_kosong');
